@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>
+    <h1>cool</h1>
+    <!-- {{ session["view"]}} -->
+    
+
+    
+    <!-- <form action="/handle_form" method = 'post' >
+       favorite color: <input type="text" name="favorite_color" id="">
+       <input type="submit" value = "tell me your favorite color">
+    </form> -->
+
+
+    <form action="/handle_form" method = 'post' >
+
+        <button type="submit"  name="change" value="add"> Add 1!</button>
+        <button type="submit"  name="change" value="goback"> go back!</button>
+
+
+
+
+    </form>
+    
+<!-- <h1>Your fav color is {{ session ['favorite_color'] }}</h1> -->
+<h1>counter :    {{session["count"]}}  </h1>
+</body>
+</html>
